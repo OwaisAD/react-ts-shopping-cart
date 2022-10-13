@@ -74,7 +74,7 @@ export function ShoppingCartProvider({children} : ShoppingCartProviderProps) {
             getItemQuantity, 
             increaseCartQuantity, 
             decreaseCartQuantity, 
-            removeFromCart
+            removeFromCart,
         }}
     >
         {children}
